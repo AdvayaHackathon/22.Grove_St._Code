@@ -1,121 +1,661 @@
 [
-   
     {
-        "name": "Hampi_Vijayanagara_Empire",
-        "lat": 15.335,
-        "lon": 76.6552,
-        "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vijaya_Vittala_Hampi.jpg",
-        "link": "https://www.karnataka.com/hampi/vittala-temple/",
-        "category":"templesLayer",
-        "info":[
-            "1336CE: Establishment of the Vijayanagara Empire with Hampi as its magnificent capital, leading to extensive temple construction.",
-            "1565CE: The Battle of Talikota resulted in the empire's defeat and the subsequent plundering and ruin of Hampi.",
-            "2025: Approval for a ₹50 crore science center and planetarium near Hampi, aiming to boost education and tourism in the region."
-        ],
-        "timeline":["1336CE","1565CE","2025"]
+        "name": "Om Beach",
+        "lat": 14.5540,
+        "lon": 74.3140,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/2a/Om_beach_Gokarna.JPG",
         
-    },
-    {
-        "name": "Coorg",
-        "lat": 12.4260,
-        "lon": 75.7382,
-        "img":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Thadiyantamol_betta.jpg",
-        "category":"hill_stationLayer",
-        "info":[
-            "1600CE: The rule of the Haleri Rajas established an independent kingdom of Coorg, with Madikeri as its capital, shaping its unique cultural and political identity.",
-            "1834CE: The British East India Company annexed Coorg after a brief war, making it a province of British India and significantly altering its administrative structure.",
-            "2025: Kodagu reported a record 45.72 lakh tourist arrivals in 2024, a significant increase from 43.99 lakh in 2023, highlighting its growing popularity as a preferred travel destination, especially for nature and coffee-related tourism."
-        ],
-        "timeline":["1600CE","1834CE","2025"]
-    },
-    {
-        "name": "Bengaluru",
-        "lat": 12.9716,
-        "lon": 77.5946,
-        "img":"https://upload.wikimedia.org/wikipedia/commons/f/f4/Vidhana_Soudha_LE.jpg",
-        "category":"placeLayer",
-        "info":[
-            "1537CE: Kempe Gowda I, a chieftain under the Vijayanagara Empire, is traditionally credited with founding Bengaluru, establishing a mud fort and laying the foundation for the city.",
-            "1809CE: The British East India Company shifted its military headquarters to Bengaluru, which spurred significant growth and development, transforming it into a major administrative and military center.",
-            "2025: Bengaluru was recognized as one of the top global tech hubs, attracting significant foreign direct investment and talent, and continuing its growth as a leading center for innovation and technology."
-        ],
-        "timeline":["1537CE","1809CE","2025"]
-    },
-    {
-        "name": "Gokarna",
-        "lat": 14.5490,
-        "lon": 74.3186,
-        "img":"https://upload.wikimedia.org/wikipedia/commons/7/79/Gokarna%2C_February%2C_2018-7.jpg",
-        "category":"placeLayer",
-        "info":[
-            "Ancient Times: Gokarna has been a significant pilgrimage site for centuries, revered for the Mahabaleshwar Temple, which houses the Atmalinga, believed to have been brought by Ravana. Its religious importance predates specific recorded historical events.",
-            "16CE : Following the decline of the Vijayanagara Empire, the region, including Gokarna, came under the control of various local rulers and eventually the Maratha Confederacy before being annexed by the British in the late 18th century. Its religious significance as a Shaivaite center continued throughout these periods.",
-            "Early 2020s: Gokarna has seen a notable increase in tourism, attracting both religious pilgrims and leisure travelers drawn to its beaches and temples. This growth has led to discussions and initiatives focused on balancing tourism development with the preservation of its sacred environment and coastal ecology."
-        ],
-        "timeline":["BCE","16CE","2020s"]
-    },
-    {
-        "name": "Virupaksha Temple",
-        "lat": 15.335,
-        "lon": 76.462,
-        "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Virupaksha_Temple.png",
-        "link": "https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi",
-        "category": "templesLayer",
-        "info": [
-          "Pre-Vijayanagara Era: The Virupaksha-Pampa sanctuary existed before the 14th century, with inscriptions indicating its growing religious importance under the Chalukyas and Hoysalas.",
-          "14th - 16th Centuries: Under the Vijayanagara Empire, particularly during the reign of Krishna Deva Raya, the temple was significantly expanded with grand gopurams and pillared halls, reaching its current impressive form.",
-          "Present Day : The Virupaksha Temple remains an active and highly revered center of worship, hosting major annual festivals like the betrothal and wedding of Virupaksha and Pampa, drawing large numbers of devotees and tourists."
-        ],
-        "timeline": ["BCE", "14CE", "Present Day"]
-      },
-    {
-        "name": "Malpe Beach",
-        "lat": 13.362423782223784,
-        "lon": 74.69782218799779,
-        "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Malpe_beach_view.jpg",
-        "link": "https://en.wikipedia.org/wiki/Malpe",
+      "info":[
+        "Ancient Times: Part of the Gokarna pilgrimage site, drawing spiritual seekers due to Gokarna's association with Lord Shiva.",
+        "Late 20th Century: Gained popularity among tourists, especially backpackers, drawn to its unique Om shape and serene environment.",
+        "October 2024: Karnataka Tourism Department announced plans to introduce beach shacks and potentially allow alcohol consumption along its coastline, including beaches like Om, aiming to boost tourism."
+      ],
+      "link":"https://karnatakatourism.org/tour-item/om-beach-gokarna/",
         "category": "beachLayer",
-        "info": [
-          "Ancient Seaport: Malpe has been an ancient seaport and harbor, with mentions dating back to the 2nd century CE by the Greek geographer Ptolemy, indicating its long-standing maritime importance.",
-          "Late 20th - Early 21st Century: Malpe Beach gradually developed as a popular tourist destination, known for its scenic beauty, fishing harbor, and the gateway to St. Mary's Island.",
-          "November 2024: The Udupi District Tourism Development Committee reclaimed management of Malpe Beach and St. Mary's Island, signaling a renewed focus on its administration and development for tourism."      
-        ],
-        "timeline": ["Ancient", "20 century","Nov"]
-    },   
-    {
-        "name" : "Mane",
-        "lat": 12.3055611,
-        "lon": 76.6544508,
-        "category":"crownLayer",
-        "info":[
-            "Chairman of Board of Directors,Payana Technologies Pvt Ltd"
-            
-        ],
-        "timeline":["2025"]
+        "timeline":["Ancient","20's","2024"]
     },
     {
-        "name": "SJCIT",
-        "lat": "13.3957",
-        "lon":"77.7270",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SJC-Institute-of-Technology.jpg",
-        "link":"https://en.wikipedia.org/wiki/S_J_C_Institute_of_Technology",
-        "category":"collegeLayer",
+        "name": "Maravanthe Beach",
+        "lat": 13.6350,
+        "lon": 74.6710,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/24/Maravanthe_Beach_4.jpg",
+      "info":[
+        "Ancient Times: Local legends connect the beach's name to a mythical demon king, highlighting its presence in local folklore.",
+        "Late 20th Century Onwards: Gradually gained recognition for its unique geography where the Arabian Sea runs parallel to the Souparnika River, attracting tourists.",
+        "November 2024: The tourism department likely continued its focus on promoting the unique scenic beauty and potentially developing facilities to enhance visitor experience along this distinctive coastal stretch."
+      ],
+      "link":"https://www.karnatakatourism.org/tour-item/maravanthe-beach/",
+         "category": "beachLayer",
+         "timeline":["Ancient","20's","2024"]
+    },
+    {
+        "name": "Karwar Beach",
+        "lat": 14.7930,
+        "lon": 74.1290,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/e/ef/Beach_at_Karwar%2C_Karnataka%2C_India.jpg",
+        "link":"https://en.wikipedia.org/wiki/Karwar",
         "info":[
-            "Studing over here"
+          "Pre-British Era: Served as a natural harbor and part of the historical coastal trade routes, with control passing through various empires like the Marathas.",
+          "1857 CE: The British established Karwar as a township after the Mutiny, developing the area including the beach for administrative and trade purposes.",
+          "January 2025: Karnataka's new maritime policy highlighted plans to develop coastal tourism, which could positively influence infrastructure and facilities at Karwar Beach."
         ],
-        "timeline":["2025"]
+         "category": "beachLayer",
+         "timeline":["Pre-Era","1857","2025"]
+    },
+    {
+        "name": "Malpe Beach ",
+        "lat": 13.3350,
+        "lon": 74.7400,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Malpe_Beach_2.jpg/250px-Malpe_Beach_2.jpg",
+        "link":"https://en.wikipedia.org/wiki/Malpe",
+        "info":[
+          "Traditional Fishing Area: Long served as a landing site and operational base for local fishermen in the Malpe region.",
+          "January 2016: Became India's first beach with free Wi-Fi, aiming to attract more tourists.",
+          "Present Day (April 2025): Continues to be a popular spot for its serene environment and efforts towards maintaining its cleanliness and attracting visitors seeking a quieter beach experience near Udupi."
+        ],
+         "category": "beachLayer",
+         "timeline":["Traditional","2016","2025"]
+    },
+    {
+        "name": "Murudeshwar Beach",
+        "lat": 14.0830,
+        "lon": 74.4830,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Murudeshwar_Full_view.jpg/800px-Murudeshwar_Full_view.jpg",
+           "link":"https://en.wikipedia.org/wiki/Murdeshwar",
+        "info":[
+          "Ancient Mythological Significance: The region's history is intertwined with the Ramayana, believed to be the place where a piece of the Atma Linga landed, leading to the sanctity of the area.",
+          "Late 20th - Early 21st Century: The construction of the towering Shiva statue (completed in 2006) and the Rajagopuram significantly boosted its religious and tourist appeal.",
+          "December 2024: Following tragic drowning incidents, authorities faced legal complaints alleging negligence in providing safety measures at the beach despite revenue from water sports."
+        ],
+         "category": "beachLayer",
+         "timeline":["Ancient","20's","2024"]
+    },
+    {
+         "name": "Panambur Beach ",
+         "lat": 12.9367,
+         "lon": 74.8039,
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Panambur_Beach_Mangalore.jpg/250px-Panambur_Beach_Mangalore.jpg",
+            "link":"https://en.wikipedia.org/wiki/Panambur_Beach",
+         "info":[
+          "Early Times: Primarily a local spot for weekend gatherings and enjoying sunsets before significant commercial tourism developed.",
+          "Late 20th - Early 21st Century: Became a popular tourist destination known for its cleanliness, safety (lifeguards), and hosting events like the International Kite Festival.",
+          "December 2023: A floating sea bridge was inaugurated at the beach, becoming a new attraction for tourists."
+         ],
+          "category": "beachLayer",
+          "timeline":["Ancient","20's","2023"]
+    },
+  
+    {
+        "name": "Half Moon Beach",
+        "lat": 14.5585,
+        "lon": 74.3150,
+        "img":"https://en.wikipedia.org/wiki/File:5-Halfmoon_beach_Gokarna_Karnatak_India.jpg",
+           "link":"https://en.wikipedia.org/wiki/Gokarna,_Karnataka",
+        "info":[
+          "Late 20th Century: Gained popularity as a quieter alternative to Om Beach, attracting tourists seeking a more secluded and natural environment.",
+          "Early 2000s: Featured basic shacks and guesthouses catering to backpackers and budget travelers.",
+          "Present Day (April 2025): Remains accessible primarily by boat or a trek from Om Beach, maintaining its relatively secluded charm, though the number of permanent structures might be limited due to environmental regulations."
+        ],
+         "category": "beachLayer",
+         "timeline":["20's","2000s","2025"]
+    },
+    {
+        "name": "Kudle Beach ",
+        "lat": 14.5580,
+        "lon": 74.3140,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Kodalu_beach_at_Gokarna.JPG/800px-Kodalu_beach_at_Gokarna.JPG",
+           "link":"https://en.wikipedia.org/wiki/Gokarna,_Karnataka",
+        "info":[
+          "Late 20th Century: Developed as a popular alternative to the more crowded Om Beach, attracting a mix of backpackers and leisure travelers.",
+          "Early 2000s: Saw the growth of numerous beach shacks, guesthouses, and restaurants catering to the increasing tourist flow.",
+          "Present Day (April 2025): Remains a vibrant and popular beach known for its relaxed atmosphere, attracting a diverse crowd, with ongoing discussions and occasional actions regarding the regulation of beachside establishments to balance tourism and environmental concerns."
+        ],
+         "category": "beachLayer",
+         "timeline":["20s","2000s","2025"]
+    },
+   {
+        "name": "Dharmasthala Manjunatha Temple",
+        "lat": 12.9180,
+        "lon": 75.3480,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dharmasthala_1.jpg/800px-Dharmasthala_1.jpg",
+           "link":"https://en.wikipedia.org/wiki/Dharmasthala_Temple",
+        "info":[
+          "800 years ago: Establishment of the shrine by the Pergade family, initially worshipping Dharma Daivas.",
+          "16th Century: Installation of the Manjunatha Swamy (Shiva Linga) and the naming of the place as Dharmasthala",
+          "Present Day (April 2025): Continues as a major pilgrimage center known for charity, religious harmony, and the annual Laksha Deepotsava festival."
+        ],
+         "category": "templesLayer",
+         "timeline":["1225","16th","2025"]
+    },
+    {
+        "name": "Sri Ranganatha Swamy Temple",
+        "lat": 13.45622,
+        "lon": 77.70122,
+        "img":"https://www.karnataka.com/wp-content/uploads/2024/01/rangasthala-chikkaballapur-instagram.jpg",
+        "link":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThrZ9ioerNQw4nromc7x6DVac3Tfes9rIjm3rSNH41&s",
+        "info":[
+          "1479 CE (Legendary Founding): Traditionally believed to have been founded by Marigowda, son of Avathi Mallabiregowda, who built a fort and established the town.",
+          "1762 & 1791 CE: Became a strategic point of contention, captured briefly by Hyder Ali and later by Tipu Sultan, before eventually coming under British influence.",
+          "March 2025: The Chikkaballapur district administration actively participated in election preparations for the upcoming Lok Sabha elections, a significant administrative event for the region."
+        ],
+         "category": "templesLayer",
+         "timeline":["1479","1762","2025"]
+    },
+    {
+        "name": "Bhoganandishwara Sub-Temples, Nandi Hills Base",
+        "lat": 13.3760,
+        "lon": 77.6830,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bhoganandishvara_group_of_temples_%28810_AD%29%2C_a_rear_view_of_shrines_in_Chikkaballapur_district.JPG/250px-Bhoganandishvara_group_of_temples_%28810_AD%29%2C_a_rear_view_of_shrines_in_Chikkaballapur_district.JPG",
+           "link":"https://en.wikipedia.org/wiki/Bhoganandishwara_Temple",
+        "info":[
+          "9th-10th Centuries: Initial construction of the twin temples (Bhoganandishwara and Arunachaleswara) by the Nolamba-Pallava dynasty.",
+          "16th Century: Additions like the Kalyana Mantapa (marriage hall) during the Vijayanagara Empire.",
+          "Present Day (April 2025): A well-preserved ancient temple complex showcasing multiple architectural styles and attracting devotees and history enthusiasts "
+        ],
+         "category": "templesLayer",
+         "timeline":["9th","16th","2025"]
+    },
+    {
+        "name": "Virupaksha Temple (Hampi)",
+        "lat": 15.3340,
+        "lon": 76.4600,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2803%29.jpg/800px-Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2803%29.jpg",
+           "link":"https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi",
+        "info":[
+          "Pre-Vijayanagara Era: The Virupaksha-Pampa sanctuary existed before the 14th century, with inscriptions indicating its growing religious importance.",
+          "14th - 16th Centuries: Under the Vijayanagara Empire, particularly during Krishna Deva Raya's reign, the temple was significantly expanded with grand gopurams and pillared halls.",
+          "April 2025: The temple recently concluded its annual chariot festival (Brahmotsava), a major religious event drawing thousands of devotees."
+        ],
+         "category": "templesLayer",
+         "timeline":["Ancient","14th","2025"]
+    },
+    {
+        "name": "Krishna Raja Sagara (KRS) Dam",
+        "lat": 12.5230,
+        "lon": 76.6540,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Krishna_raja_sagara_dam.JPG/250px-Krishna_raja_sagara_dam.JPG",
+           "link":"https://en.wikipedia.org/wiki/Krishna_Raja_Sagara",
+        "info":[
+          "1932: Completion of the KRS Dam across the Kaveri River, a major irrigation project designed by M. Visvesvaraya.",
+          "2018-2019: Low water levels in the reservoir caused concerns for irrigation and drinking water supply in the region.",
+          "Late 2024: Discussions and measures implemented for efficient water management in the KRS reservoir to address irrigation needs and potential drought conditions."
+        ],
+         "category": "damsLayer",
+         "timeline":["1932","2018","2024"]
+    },
+    {
+        "name": "Tungabhadra Dam",
+        "lat": 15.8480,
+        "lon": 76.5200,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tungabhadra_Dam.jpg/220px-Tungabhadra_Dam.jpg",
+           "link":"https://en.wikipedia.org/wiki/Tungabhadra_Dam",
+        "info":[
+          "1953: Completion of the Tungabhadra Dam, a joint project between Andhra Pradesh (now Telangana and Andhra Pradesh) and Karnataka, for irrigation and power generation.",
+          "2019: Heavy monsoon rains led to significant inflows and near full reservoir levels, necessitating the release of large volumes of water.",
+          "Early 2025: Focus on modernization of the dam's irrigation canals to improve water use efficiency and reduce losses."
+        ],
+         "category": "damsLayer",
+         "timeline":["1953","2019","2025"]
+    },
+    {
+        "name": "Almatti Dam",
+        "lat": 16.1580,
+        "lon": 75.6900,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/2d/Alamatti_dam.JPG",
+           "link":"https://en.wikipedia.org/wiki/Almatti_Dam",
+        "info":[
+          "2005: Completion of the Almatti Dam across the Krishna River, a major irrigation project in Karnataka.",
+          "2019: Controversy and discussions surrounding the dam's water storage levels and its impact on downstream states.",
+          "Late 2024: Reports on the dam's role in providing water for irrigation during a drier monsoon season in parts of North Karnataka."
+        ],
+         "category": "damsLayer",
+         "timeline":["2005","2019","2024"]
+    },
+    {
+        "name": "Vani Vilasa Sagara Dam",
+        "lat": 13.5000,
+        "lon": 76.6000,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Marikanivemod.jpg/220px-Marikanivemod.jpg",
+           "link":"https://en.wikipedia.org/wiki/Vani_Vilasa_Sagara",
+        "info":[
+          "Early 20th Century (1907): Construction of the Vani Vilasa Sagara Dam across the Vedavathi River, one of the oldest dams in Karnataka, built by the Mysore Maharaja.",
+          "2018-2020: Several instances of low water levels in the reservoir raised concerns for irrigation in the Chitradurga region.",
+          "Early 2025: Implementation of projects to rejuvenate the catchment area of the dam to improve water inflow and storage capacity."
+        ],
+         "category": "damsLayer",
+         "timeline":["20th","2018","2025"]
+    },
+   {
+        "name": "Bhadra Dam",
+        "lat": 13.7270,
+        "lon": 75.6540,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bhadra_River_Project_Dam.jpg/250px-Bhadra_River_Project_Dam.jpg",
+           "link":"https://en.wikipedia.org/wiki/Bhadra_Dam",
+        "info":[
+          "1965: Completion of the Bhadra Dam across the Bhadra River, primarily for irrigation purposes in the Bhadravathi region.",
+          "2018: Significant fish kill incident in the Bhadra reservoir due to suspected pollution, raising environmental concerns.",
+          "Late 2024: Focus on promoting eco-tourism around the Bhadra reservoir and wildlife sanctuary while ensuring environmental protection."
+        ],
+         "category": "damsLayer",
+         "timeline":["1965","2018","2024"]
+    },
+    {
+        "name": "Dandiganahalli Dam",
+        "lat": 13.2000,
+        "lon": 77.3000,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVSe6TzOoOIiHOjmhXxWn52AfCT79vokDOGwn0Sg42Q&s",
+           "link":"https://www.google.com/search?q=Dandiganahalli+Dam&sca_esv=ea28a01ba0d65b63&biw=683&bih=649&sxsrf=AHTn8zotdLVH3w9_CXsGvPBb1JTpnzU8AQ%3A1744361542932&ei=Rtj4Z4HWOOfi1e8Pr9qcwAc&ved=0ahUKEwiBkYGRzc-MAxVncfUHHS8tB3gQ4dUDCBA&uact=5&oq=Dandiganahalli+Dam&gs_lp=Egxnd3Mtd2l6LXNlcnAiEkRhbmRpZ2FuYWhhbGxpIERhbTILEC4YgAQYxwEYrwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkjhGVCAD1i5FHACeAGQAQCYAdkBoAHZAaoBAzItMbgBA8gBAPgBAfgBApgCA6ACqAKoAgrCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDRAjGPAFGCcYyQIY6gLCAg0QLhjHARgnGOoCGK8BwgIHECMYJxjqAsICChAjGLQEGCcY6gKYAyDxBd59_t8gzLvkiAYBkAYLkgcFMi4wLjGgB9cIsgcDMi0xuAfyAQ&sclient=gws-wiz-serp",
+        "info":[
+          "Early 2000s: Completion of the Dandiganahalli Dam (officially known as the C. Byregowda Reservoir) across the Chikkahole stream, primarily to provide drinking water to the Chikballapur district.",
+          "2016-2018: Faced challenges with filling up to its capacity due to rainfall deficits in the catchment area.",
+          "Early 2025: Ongoing efforts and projects to augment the water supply to the Dandiganahalli reservoir from other sources to meet the growing drinking water demands of the region."
+        ],
+         "category": "damsLayer",
+         "timeline":["2000s","2016","2025"]
+    },
+   {
+        "name": "Bhadra Wildlife Sanctuary",
+        "lat": 13.5500,
+        "lon": 75.5500,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2006-Tigers-and-Gaurs.jpg/330px-2006-Tigers-and-Gaurs.jpg",
+           "link":"https://en.wikipedia.org/wiki/Bhadra_Wildlife_Sanctuary",
+        "info":[
+          "1951: Initially established as the Thadagunda Game Sanctuary.",
+          "1974: Renamed Bhadra Wildlife Sanctuary and brought under Project Tiger in 1998.",
+          "Late 2024: Increased focus on mitigating human-wildlife conflict around the sanctuary's periphery through awareness programs and protective measures."
+        ],
+         "category": "wildLayer",
+         "timeline":["1951","1974","2024"]
+    },
+    {
+        "name": "Dandeli Wildlife Sanctuary",
+        "lat": 15.2667,
+        "lon": 74.6167,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_calm_of_river_kali.jpg/284px-The_calm_of_river_kali.jpg",
+           "link":"https://en.wikipedia.org/wiki/Dandeli_Wildlife_Sanctuary",
+        "info":[
+          "1956: Established as the Dandeli Wildlife Sanctuary.",
+          "2007: Merged with the Anshi National Park to form the Dandeli-Anshi Tiger Reserve, a significant protected area.",
+          "Early 2025: Ongoing efforts to boost eco-tourism in the region while ensuring minimal disturbance to the wildlife and their habitat."
+        ],
+         "category": "wildLayer",
+         "timeline":["1956","2007","2025"]
+    },
+    {
+        "name": "Cauvery Wildlife Sanctuary",
+        "lat": 12.5230,
+        "lon": 76.6540,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Kaveri_Cauvery_River_Tamil_Nadu_India_May_2014.jpg/284px-Kaveri_Cauvery_River_Tamil_Nadu_India_May_2014.jpg",
+           "link":"https://en.wikipedia.org/wiki/Cauvery_Wildlife_Sanctuary",
+        "info":[
+          "1987: Established as the Cauvery Wildlife Sanctuary, primarily to protect the riparian ecosystem and wildlife along the Cauvery River.",
+          "Late 2010s: Concerns raised regarding illegal sand mining and its impact on the sanctuary's biodiversity.",
+          "Late 2024: Intensified patrolling and measures to curb illegal activities and protect the riverine habitat and its inhabitants, including the critically endangered mahseer fish."
+        ],
+         "category": "wildLayer",
+         "timeline":["1987","2010s","2024"]
+    },
+    {
+        "name": "Pushpagiri Wildlife Sanctuary",
+        "lat": 12.6010,
+        "lon": 75.7667,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mandalpatti_Hills.jpg/800px-Mandalpatti_Hills.jpg",
+           "link":"https://en.wikipedia.org/wiki/Pushpagiri_Wildlife_Sanctuary",
+        "info":[
+          "1987: Declared as the Pushpagiri Wildlife Sanctuary, known for its diverse flora and fauna in the Western Ghats.",
+          "Early 2020s: Increased attention on managing tourism and trekking activities within the sanctuary to minimize ecological impact.",
+          "Early 2025: Implementation of specific conservation programs for endemic and endangered species found within the sanctuary."
+        ],
+         "category": "wildLayer",
+         "timeline":["1987","2020s","2025"]
+    },
+    {
+        "name": "Brahmagiri Wildlife Sanctuary",
+        "lat": 12.9500,
+        "lon": 75.7500,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brahmagiri_wildlife_sanctuary.jpg/330px-Brahmagiri_wildlife_sanctuary.jpg",
+           "link":"https://en.wikipedia.org/wiki/Brahmagiri_Wildlife_Sanctuary",
+        "info":[
+          "1974: Notified as the Brahmagiri Wildlife Sanctuary, encompassing parts of Kodagu and Wayanad districts, known for its evergreen forests and wildlife.",
+          "Late 2010s: Instances of human encroachment and habitat fragmentation posed challenges to the sanctuary's integrity.",
+          "Late 2024: Focus on community-based conservation initiatives and involving local communities in the protection and management of the sanctuary."
+        ],
+         "category": "wildLayer",
+         "timeline":["1974","2010s","2024"]
+    },
+    {
+        "name": "Kumara Parvatha (Pushpagiri) - Coorg",
+        "lat": 12.6000,
+        "lon": 75.7667,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Coorg_-_The_Scotland_of_India.jpg/272px-Coorg_-_The_Scotland_of_India.jpg",
+           "link":"https://en.wikipedia.org/wiki/Pushpagiri_(mountain)",
+        "info":[
+          "Historical Significance: Part of the larger Pushpagiri range, with religious and mythological associations.",
+          "Popular Trekking Destination: Gained popularity as a challenging and scenic trekking route in the Western Ghats.",
+          "Early 2025: Implementation of stricter regulations and permits for trekking to manage the environmental impact due to increasing foot traffic."
+        ],
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Skandagiri - Near Bangalore",
+        "lat": 13.2900,
+        "lon": 77.6380,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Skandagiri.jpg/250px-Skandagiri.jpg",
+        "link":"https://en.wikipedia.org/wiki/Skandagiri",
+        "info":[
+          "Historical Fort: Features the ruins of an old fort, historically significant for Tipu Sultan's era.",
+          "Night Trekking Popularity: Became a well-known destination for night trekking, especially for sunrise views.",
+          "Late 2024: Increased enforcement of rules and restrictions on night trekking to ensure safety and prevent environmental damage."
+        ],
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Kodachadri - Shivamogga",
+        "lat": 13.5667,
+        "lon": 75.3833,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kodachadri.JPG/330px-Kodachadri.JPG",
+           "link":"https://en.wikipedia.org/wiki/Kodachadri",
+        "info":[
+          "Historical Mention: Known historically as a prominent peak in the Western Ghats, with mentions in ancient texts.",
+          "Serene Natural Beauty: Attracts trekkers and nature enthusiasts for its biodiversity and panoramic views.",
+          "Early 2025: Focus on developing sustainable tourism infrastructure to accommodate increasing visitor numbers while preserving the natural environment."
+        ],
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Tadiandamol - Coorg",
+        "lat": 12.5230,
+        "lon": 75.6900,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tadiandamol_Trek_25Aug_Pic_3_View_From_Top.jpg/330px-Tadiandamol_Trek_25Aug_Pic_3_View_From_Top.jpg",
+           "link":"https://en.wikipedia.org/wiki/Tadiandamol",
+        "info":[
+          "Highest Peak in Coorg: Holds the distinction of being the highest mountain in the Coorg region.",
+          "Popular Trekking Destination: A sought-after trekking route known for its relatively easier trails and stunning landscapes.",
+          "Late 2024: Increased awareness campaigns promoting responsible trekking practices and waste management on the trails."
+        ],
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2024"]
+    },
+    {
+        "name": "Savandurga - Near Bangalore",
+        "lat": 12.9530,
+        "lon": 77.4230,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Savandurga_Hill_02.jpg/250px-Savandurga_Hill_02.jpg",
+           "link":"https://en.wikipedia.org/wiki/Savandurga",
+        "info":[
+          "Largest Monolithic Hill: Known for being one of the largest monolithic rock formations in Asia.",
+          "Historical Significance: Served as a strategic fort for various rulers, including Kempe Gowda and Tipu Sultan.",
+          "Early 2025: Ongoing efforts to improve safety measures for climbers and trekkers on the steep rock face."
+        ],
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Gudibande Fort - Near Chikkaballapur ",
+        "lat": 13.4000,
+        "lon": 77.5833,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Gudibande_-_Loaps.jpg/250px-Gudibande_-_Loaps.jpg",
+           "link":"https://en.wikipedia.org/wiki/Gudibande",
+        "info":[
+          "17th Century Fort: Built by a local chieftain Byre Gowda, showcasing impressive architecture.",
+          "Relatively Undiscovered: Remains a lesser-known historical site, attracting those seeking offbeat destinations.",
+          "Late 2024: Increased local interest in promoting the fort as a heritage tourism spot while maintaining its historical integrity."
+        ],
+         "category": "trekLayer",
+         "timeline":["17th","2020","2024"]
+    },
+    {
+        "name": "Sakleshpur's Railway Trek (Green Route) ",
+        "lat": 12.9400,
+        "lon": 75.7000,
+        "img":"https://i0.wp.com/aravindgundumane.com/wp-content/uploads/2008/09/DSC00799.jpg?w=1140",
+        "link":"https://sahyadristays.com/destination/green-route-railway-trek-in-sakleshpur/#:~:text=The%20Green%20Route%20Railway%20Trek%20starts%20from%20the%20Sakleshpur%20railway,but%20have%20now%20been%20abandoned.",
+        "info":[
+          "Scenic Railway Line: A picturesque railway track section through the Western Ghats, known for its tunnels and bridges.",
+          "Informal Trekking: Became popular for walking along the disused railway line, offering unique natural views.",
+          "Recent Years: Increased scrutiny and safety concerns raised by railway authorities regarding unauthorized trekking on the tracks."
+        ],  
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Mullayanagiri",
+        "lat": 13.3333,
+        "lon": 75.7333,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Mullaiyangiri_hills.jpg/800px-Mullaiyangiri_hills.jpg",
+           "link":"https://en.wikipedia.org/wiki/Mullayyanagiri",
+        "info":[
+          "Highest Peak in Karnataka: Holds the title of the highest peak in the state, offering panoramic views of the Western Ghats.",
+          "Popular Trekking and Pilgrimage Site: Attracts both adventure seekers and devotees visiting the Shiva temple at the summit.",
+          "Early 2025: Discussions and potential regulations to manage the increasing number of vehicles and tourists visiting the peak."
+        ],
+         "category": "trekLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Kudremukh",
+        "lat": 13.2000,
+        "lon": 75.0000,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Shola_Grasslands_and_forests_in_the_Kudremukh_National_Park%2C_Western_Ghats%2C_Karnataka.jpg/800px-Shola_Grasslands_and_forests_in_the_Kudremukh_National_Park%2C_Western_Ghats%2C_Karnataka.jpg",
+           "link":"https://en.wikipedia.org/wiki/Kudremukha",
+        "info":[
+          "Former Mining Town: Historically known for its iron ore mining activities, which ceased in 2006.",
+          "Biodiversity Hotspot: Now recognized for its rich biodiversity and the Kudremukh National Park.",
+          "Late 2024: Continued focus on conservation efforts within the national park and promoting eco-friendly tourism in the region."
+        ],
+         "category": "trekLayer",
+         "timeline":["2006","2020","2024"]
+    },
+    {
+        "name": "Jog Falls",
+        "lat": 14.2167,
+        "lon": 74.6167,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jog_Falls_05092016.jpg/250px-Jog_Falls_05092016.jpg",
+           "link":"https://en.wikipedia.org/wiki/Jog_Falls",
+        "info":[
+          "Natural Formation: A majestic segmented waterfall on the Sharavathi River, known for its sheer drop.",
+          "Fluctuating Flow: Its grandeur is significantly influenced by the monsoon season and dam releases upstream.",
+          "Early 2025: Discussions and potential projects to enhance tourism infrastructure around the falls while respecting the natural environment."
+        ],
+         "category": "waterFallsLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Abbey Falls",
+        "lat": 12.4150,
+        "lon": 75.7100,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Abbey_Falls_New.jpg/800px-Abbey_Falls_New.jpg",
+           "link":"https://en.wikipedia.org/wiki/Abbey_Falls",
+        "info":[
+          "Scenic Cascade: A picturesque waterfall nestled amidst coffee plantations near Madikeri in Coorg.",
+          "Popular Tourist Spot: A well-visited attraction known for its natural beauty.",
+          "Late 2024: Implementation of measures for better crowd management and waste disposal during peak tourist season."
+        ],
+         "category": "waterFallsLayer",
+         "timeline":["Ancient","2020","2024"]
+    },
+    {
+        "name": "Shivanasamudra Falls",
+        "lat": 12.4028,
+        "lon": 77.1050,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/1/15/Barahachukki.jpg",
+           "link":"https://en.wikipedia.org/wiki/Shivanasamudra_Falls",
+        "info":[
+          "Island Town Falls: A segmented waterfall on the Kaveri River, creating the islands of Gaganachukki and Bharachukki.",
+          "Hydroelectric Power: Site of one of India's earliest hydroelectric power stations.",
+          "Early 2025: Focus on promoting sustainable tourism and maintaining the ecological balance of the surrounding area."
+        ],
+         "category": "waterFallsLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Iruppu Falls",
+        "lat": 12.3578,
+        "lon": 75.8833,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Irupu-falls.jpg/800px-Irupu-falls.jpg",
+           "link":"https://en.wikipedia.org/wiki/Irupu_Falls",
+        "info":[
+          "Sacred Waterfall: A revered waterfall in Coorg, associated with the Ramayana.",
+          "Pilgrimage and Tourism: Attracts both devotees and tourists seeking natural beauty.",
+          "Late 2024: Efforts to improve access and amenities for pilgrims and tourists while preserving the sanctity of the site."
+        ],
+         "category": "waterFallsLayer",
+         "timeline":["Ancient","2020","2024"]
+    },
+    {
+        "name": "Hebbe Falls",
+        "lat": 13.5000,
+        "lon": 75.7333,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hebbe_Falls.JPG/800px-Hebbe_Falls.JPG",
+           "link":"https://en.wikipedia.org/wiki/Hebbe_Falls",
+        "info":[
+          "Hill Station Waterfall: Located near Kemmanagundi, accessible by jeep or trekking.",
+          "Natural Beauty and Biodiversity: Known for its pristine environment and surrounding forests.",
+          "Early 2025: Regulations to manage off-road vehicle traffic to minimize environmental impact in the region."
+        ],
+         "category": "waterFallsLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+     {
+         "name": "Honnemaradu",
+         "lat": 14.0167,
+         "lon": 74.6167,
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Honnemoredu.jpg/330px-Honnemoredu.jpg",
+           "link":"https://en.wikipedia.org/wiki/Honnemaradu",
+         "info":[
+          "Water Sports Hub: A popular destination for water sports like kayaking and canoeing on the backwaters of the Sharavathi River.",
+          "Adventure Tourism: Attracts adventure enthusiasts and nature lovers.",
+          "Late 2024: Emphasis on promoting safe and responsible water sports activities and eco-friendly tourism."
+         ],
+          "category": "waterFallsLayer",
+          "timeline":["Ancient","2020","2024"]
+     },
+     {
+         "name": "Yana Rocks",
+         "lat": 14.8667,
+         "lon": 74.6167,
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Yana_Rocks.jpg/800px-Yana_Rocks.jpg",
+         "link":"https://en.wikipedia.org/wiki/Yana,_India",
+         "info":[
+          "Unique Rock Formations: Known for its two massive black crystalline limestone rock outcrops.",
+          "Pilgrimage and Trekking: A pilgrimage site with a cave temple and a popular trekking destination.",
+          "Early 2025: Measures to improve trail maintenance and visitor facilities while protecting the natural formations."
+         ],
+          "category": "waterFallsLayer",
+          "timeline":["Ancient","2020","2025"]
+     },
+     {
+         "name": "Agumbe",
+         "lat": 13.4333,
+         "lon": 74.8833,
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Agumbe_View_point.jpg/250px-Agumbe_View_point.jpg",
+           "link":"https://en.wikipedia.org/wiki/Agumbe",
+         "info":[
+          "Cherrapunji of the South: Known for receiving high rainfall and its rich biodiversity.",
+          "Sunset Point and Trekking: Famous for its scenic sunsets and trekking trails in the Western Ghats.",
+          "Late 2024: Focus on promoting eco-tourism and responsible travel to preserve its fragile ecosystem."
+         ],
+          "category": "waterFallsLayer",
+          "timeline":["Ancient","2020","2025"]
+     },
+    {
+        "name": "Hampi",
+        "lat": 15.3350,
+        "lon": 76.4620,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/4/4b/Hampi_virupaksha_temple.jpg",
+           "link":"https://en.wikipedia.org/wiki/Hampi",
+        "info":[
+          "Capital of Vijayanagara Empire: A UNESCO World Heritage site with impressive temple ruins.",
+          "Historical and Architectural Significance: A major attraction for history buffs and architecture enthusiasts.",
+          "Early 2025: Ongoing conservation efforts and discussions on managing increasing tourist footfall."
+        ],
+         "category": "historyLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Mysore Palace",
+        "lat": 12.3051,
+        "lon": 76.6550,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/250px-Mysore_Palace_Morning.jpg",
+           "link":"https://en.wikipedia.org/wiki/Mysore_Palace",
+  
+        "info":[
+          "Wodeyar Dynasty Seat: The official residence of the Wadiyar dynasty, known for its Indo-Saracenic architecture.",
+          "Major Tourist Attraction: One of the most visited sites in India, famous for its illumination.",
+          "Late 2024: Implementation of new technologies for visitor management and enhanced security measures."
+        ],
+         "category": "historyLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Aihole",
+        "lat": 15.8800,
+        "lon": 75.9780,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/8th_century_Durga_temple_exterior_view%2C_Aihole_Hindu_temples_and_monuments_3.jpg/250px-8th_century_Durga_temple_exterior_view%2C_Aihole_Hindu_temples_and_monuments_3.jpg",
+           "link":"https://en.wikipedia.org/wiki/Aihole",
+        "info":[
+          "Chalukyan Architecture Cradle: A historical site with numerous ancient temples showcasing early Chalukyan architecture.",
+          "Archaeological Significance: An important destination for studying early temple architecture.",
+          "Early 2025: Continued archaeological research and conservation efforts at the temple sites."
+        ],
+         "category": "historyLayer",
+         "timeline":["Ancient","2020","2025"]
+    },
+    {
+        "name": "Chitradurga Fort",
+        "lat": 14.2270,
+        "lon": 76.4060,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GALIMANTAPA.jpg/800px-GALIMANTAPA.jpg",
+           "link":"https://en.wikipedia.org/wiki/Chitradurga",
+        "info":[
+          "Seven Circles Fort: A historically significant fort with multiple defensive layers and strategic importance.",
+          "Heroic Tales: Associated with the legendary Obavva and its resistance against Hyder Ali.",
+          "Late 2024: Initiatives to promote heritage tourism and improve visitor amenities at the fort."
+        ],
+         "category": "historyLayer",
+         "timeline":["Ancient","2020","2024"]
+    },
+    {
+        "name": "Bidar Fort",
+        "lat": 17.9100,
+        "lon": 77.5320,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/b/b6/Gateway_to_Bidar_fort.jpg",
+        "link":"https://en.wikipedia.org/wiki/Bidar_Fort",
+        "info":[
+          "Bahmani Sultanate Capital: Historically significant as the capital of the Bahmani Sultanate.",
+          "Persian Architectural Influence: Known for its unique architecture blending Hindu and Persian styles.",
+          "Early 2025: Ongoing restoration work on various structures within the fort complex."
+        ],
+         "category": "historyLayer",
+         "timeline":["Ancient","2020","2025"]
     },
     {
         "name": "BGSCET",
-        "lat": "13.0046",
-        "lon":"77.5445",
-        
+        "lat":13.0046,
+        "lon":77.5445,
+        "img":"https://assets.collegedunia.com/public/college_data/images/appImage/1695121213IMG20230914WA0022.jpg",
         "link":"https://bgscet.ac.in/",
-        "category":"collegeLayer",
         "info":[
-            "..."
+            "Founded in the year 2022",
+            "Currently here"
         ],
-        "timeline":["2025"]
-    }  
-]
-
+        "category":"collegeLayer",
+        "timeline":["2022","2025"]
+    },
+    {
+        "name": "SJCIT",
+        "lat":13.3957,
+        "lon":77.7270,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SJC-Institute-of-Technology.jpg",
+        "link":"https://en.wikipedia.org/wiki/S_J_C_Institute_of_Technology",
+        "info":[
+            "Started in the year 1986",
+            "Currently studying here"
+        ],
+        "category":"collegeLayer",
+        "timeline":["1986","2025"]
+    }
+  ]
