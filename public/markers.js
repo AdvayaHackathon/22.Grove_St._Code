@@ -1,6 +1,6 @@
 
 let itinerary = [];
-
+let markers = [];
 //  Create custom icons for different map features
  
 function createMapIcons() {

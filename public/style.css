@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Nuto';
+    src: url(files/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --light-text-color: #fff;
+    --border-color: #ddd;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --transparent: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: 'Nuto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: darken(var(--secondary-color), 10%);
+}
+
+#root {
+    position: relative;
+    height: 100vh;
+}
+
+#detailsPane {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35vw;
+    background-color: var(--light-text-color);
+    height: 100vh;
+    padding: 20px;
+    box-shadow: -2px 0 5px var(--shadow-color);
+    overflow-y: auto;
+    z-index: 1050;
+}
+
+#detailsPane h2, #detailsPane h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#detailsPane p {
+    line-height: 1.6;
+}
+
+#detailsPane img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#mapAndSearch {
+    position: relative;
+}
+
+.wideMap {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1024;
+    transition: width 0.3s ease;
+}
+
+.smallMap {
+    height: 100vh;
+    width: 65vw;
+    z-index: 0;
+    transition: width 0.3s ease;
+}
+
+#search {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    z-index: 1025;
+    display: flex;
+    flex-direction: column;
+}
+
+#searchInput {
+    width: 300px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    padding: 10px 15px;
+    font-family: 'Nuto', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px 5px var(--shadow-color);
+    transition: border-color 0.3s ease;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+}
+
+#suggestions {
+    background-color: var(--light-text-color);
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    margin-top: -5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px var(--shadow-color);
+    width: 300px;
+}
+
+.suggestionListItems {
+    padding: 10px 15px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.suggestionListItems:hover {
+    background-color: var(--background-color);
+}
+
+#titleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#titleDiv h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#titleDiv img {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+#titleDiv img:hover {
+    opacity: 1;
+}
+
+#sidePaneContent {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+
+#itinerary-list {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--light-text-color);
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    z-index: 1025;
+    box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+#itinerary-list h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#itinerary-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#itinerary-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#itinerary-list li:last-child {
+    border-bottom: none;
+}
+
+#itinerary-list button {
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nuto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+#itinerary-list button:hover {
+    background-color: darken(var(--secondary-color), 10%);
+}
+
+
+.add-to-itinerary {
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nuto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-itinerary:hover {
+    background-color: darken(var(--secondary-color), 10%);
+}
+
+
+#detailsPane input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#detailsPane datalist {
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary-color);
+}
+
+#detailsPane option {
+    padding-right: 5px;
+}
+
+#detailsPane p[id^="info-"] {
+    margin-top: 5px;
+    font-style: italic;
+    color: var(--primary-color);
+}
