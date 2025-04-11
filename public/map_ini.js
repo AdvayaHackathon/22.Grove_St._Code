@@ -23,10 +23,13 @@ function createFeatureLayers(map) {
     const layers = {
         temples: L.layerGroup().addTo(map),
         beaches: L.layerGroup().addTo(map),
-        places: L.layerGroup().addTo(map),
-        hillStations: L.layerGroup().addTo(map),
-        crown: L.layerGroup().addTo(map),
-        colleges: L.layerGroup().addTo(map)
+        dams:L.layerGroup().addTo(map),
+        wild:L.layerGroup().addTo(map),
+        water:L.layerGroup().addTo(map),
+        history:L.layerGroup().addTo(map),
+        trek:L.layerGroup().addTo(map),
+        college:L.layerGroup().addTo(map)
+        
     };
 
     return layers;
@@ -35,12 +38,14 @@ function createFeatureLayers(map) {
 
 function setupLayerControl(map, layers) {
     const overlays = {
-        "Temples": layers.temples,
-        "Beaches": layers.beaches,
-        "Place": layers.places,
-        "Hill": layers.hillStations,
-        "Crown": layers.crown,
-        "College": layers.colleges
+        "temples": layers.temples,
+        "beaches": layers.beaches,
+        "dams": layers.dams,
+        "wild": layers.wild,
+        "waterFalls":layers.water,
+        "history":layers.history,
+        "trek":layers.trek,
+        "college":layers.college
     };
 
     L.control.layers(null, overlays).addTo(map);

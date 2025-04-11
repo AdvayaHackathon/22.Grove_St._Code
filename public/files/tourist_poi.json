@@ -138,7 +138,7 @@
           "1762 & 1791 CE: Became a strategic point of contention, captured briefly by Hyder Ali and later by Tipu Sultan, before eventually coming under British influence.",
           "March 2025: The Chikkaballapur district administration actively participated in election preparations for the upcoming Lok Sabha elections, a significant administrative event for the region."
         ],
-         "category": "templesLayer",
+         "category": "hiddengemsLayer",
          "timeline":["1479","1762","2025"]
     },
     {
@@ -250,7 +250,7 @@
           "2016-2018: Faced challenges with filling up to its capacity due to rainfall deficits in the catchment area.",
           "Early 2025: Ongoing efforts and projects to augment the water supply to the Dandiganahalli reservoir from other sources to meet the growing drinking water demands of the region."
         ],
-         "category": "damsLayer",
+         "category": "hiddengemsLayer",
          "timeline":["2000s","2016","2025"]
     },
    {
@@ -390,7 +390,7 @@
           "Historical Significance: Served as a strategic fort for various rulers, including Kempe Gowda and Tipu Sultan.",
           "Early 2025: Ongoing efforts to improve safety measures for climbers and trekkers on the steep rock face."
         ],
-         "category": "trekLayer",
+         "category": "hiddengemsLayer",
          "timeline":["Ancient","2020","2025"]
     },
     {
@@ -404,7 +404,7 @@
           "Relatively Undiscovered: Remains a lesser-known historical site, attracting those seeking offbeat destinations.",
           "Late 2024: Increased local interest in promoting the fort as a heritage tourism spot while maintaining its historical integrity."
         ],
-         "category": "trekLayer",
+         "category": "hiddengemsLayer",
          "timeline":["17th","2020","2024"]
     },
     {
@@ -541,11 +541,11 @@
          "link":"https://en.wikipedia.org/wiki/Yana,_India",
          "info":[
           "Unique Rock Formations: Known for its two massive black crystalline limestone rock outcrops.",
-          "Pilgrimage and Trekking: A pilgrimage site with a cave temple and a popular trekking destination.",
-          "Early 2025: Measures to improve trail maintenance and visitor facilities while protecting the natural formations."
+          "officially Surveyed and documented for Populartion and formation .",
+          "Namoora Mandara Hoove Kannada film was shot in Yana, increasing in popularity."
          ],
           "category": "waterFallsLayer",
-          "timeline":["Ancient","2020","2025"]
+          "timeline":["500 million years ago ","19CE","20th Century"]
      },
      {
          "name": "Agumbe",
@@ -616,7 +616,7 @@
           "Late 2024: Initiatives to promote heritage tourism and improve visitor amenities at the fort."
         ],
          "category": "historyLayer",
-         "timeline":["Ancient","2020","2024"]
+         "timeline":["Ancient","15CE","2024"]
     },
     {
         "name": "Bidar Fort",
@@ -630,7 +630,7 @@
           "Early 2025: Ongoing restoration work on various structures within the fort complex."
         ],
          "category": "historyLayer",
-         "timeline":["Ancient","2020","2025"]
+         "timeline":["Ancient","14CE","2025"]
     },
     {
         "name": "BGSCET",
@@ -657,5 +657,61 @@
         ],
         "category":"collegeLayer",
         "timeline":["1986","2025"]
-    }
+    },
+    {
+      "name":"Harihareshwara Temple (Harihar, Karnataka)",
+      "lat":14.506997972,
+      "lon":75.801163462,
+      "img":"https://upload.wikimedia.org/wikipedia/commons/8/81/View_of_staggered_square_layout_of_mantapa_of_Harihareshwara_Temple_at_Harihar.jpg",
+      "link":"https://en.wikipedia.org/wiki/Harihareshwara_Temple",
+      "info":[ 
+        "1223-1224 CE: Built by Polalva, a commander of the Hoysala Empire, showcasing Hoysala architecture and dedicated to Harihara (fusion of Vishnu and Shiva).",
+        "1268 CE: Additions were made to the temple by Soma, another commander of the Hoysala dynasty.",
+        "Present Day (April 2025): The temple remains an active and significant Hindu pilgrimage site, known for its unique deity and Hoysala architecture."
+      ],
+      "category": "hiddengemsLayer",
+      "timeline":["1223CE","1268CE","2025"]
+   },
+   {
+      "name":"Anekonda, Davangere",
+      "lat":"14.4780",
+      "lon":"75.9311",
+      "img":"https://www.holidify.com/images/compressed/2394.jpg",
+      "link":"https://www.holidify.com/places/davangere/anekonda-sightseeing-4477.html",
+      "info":[
+        "11th - 12th Centuries CE: Anekonda was a significant town, potentially a seat of power under various dynasties like the Chalukyas, Hoysalas, and others.",
+        "Historical Significance (Name Origin): Legend says it was a place where the elephants of the army were tied when Betur was the capital, hence the name Anekonda (elephant pond).",
+        "February 2025: A public auction for a house in Anekonda was conducted by India Shelter Finance Corporation Limited, indicating ongoing real estate and economic activity in the area."
+      ],
+      "category":"hiddengemsLayer",
+      "timeline":["11CE","1900s","2025"]
+   },
+   {
+      "name":"sulekere",
+      "lat":14.1279,
+      "lon":75.9057,
+      "img":"https://upload.wikimedia.org/wikipedia/commons/5/51/View_of_Shanthi_Sagar_%28Soole_Kere%29_%E0%B2%B8%E0%B3%82%E0%B2%B3%E0%B3%86_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86_near_channagiri%2Cdavengere_karnataka.JPG",
+      "link":"https://en.wikipedia.org/wiki/Shanti_Sagara",
+      "info":[
+        "1128 CE: Shanthi Sagara (also known as Sulekere), a major irrigation tank and the second-largest built lake in Asia at the time, was constructed.",
+        "Historical Significance: Served as a vital water source for irrigation and drinking water for numerous villages in the Davanagere region for centuries.",
+        "February 2025: Reports highlighted Shanthi Sagara (Sulekere) as the biggest natural lake in Karnataka and an important ecological hotspot, attracting migratory birds and tourists."
+      ],
+      "category":"hiddengemsLayer",
+      "timeline":["1128CE","190s","2025"]
+   },
+   {
+      "name":"banne market",
+      "lat":14.469549,
+      "lon":75.919878,
+      "img":"https://lh3.googleusercontent.com/gps-cs-s/AB5caB_cIL9W40liPrHohWPL_JwotGh6ddUIivYVyTL2ZWcXhPOb9XA5L0KnZe9r87lN6mKJrkVPlz4iscr96g2gCsfwmwPKR81l87UNmW2sT2C7i3hmIxdSxjIW-nj7y7NIUKfeKMYOtg=w408-h306-k-no",
+      "link":"https://www.google.com/maps/place/Clock+Tower/@14.4696107,75.9198959,723m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bba25992b437147:0xba82dae1680ea8e1!8m2!3d14.4696107!4d75.9198959!16s%2Fg%2F1v_z7bw8?entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+      "info":[
+        "Historical Significance as a Local Trade Hub: Like many traditional markets in Karnataka, Banne Market likely served as a central place for local agricultural produce, goods, and community interaction for a significant period",
+        "Economic Activity: As Davangere is an agricultural center, Banne Market would have historically played a crucial role in the local economy, facilitating the sale of crops like cotton (for which Davangere was known as the Manchester of Karnataka), grains, and other commodities.",
+        "April 2025: Based on general market trends and local economic activities in Davangere, Banne Market is likely currently functioning as a trading center for various goods, potentially including agricultural produce, textiles, and other local products. You might find recent price trends for commodities like beans traded in Davangere markets, reflecting the ongoing economic activity."
+      ],
+      "category":"hiddengemsLayer",
+      "timeline":["1967","1990","2025"]
+   }
   ]

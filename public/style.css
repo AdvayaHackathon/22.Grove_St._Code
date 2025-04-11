@@ -42,7 +42,7 @@ a:hover {
     position: absolute;
     right: 0;
     top: 0;
-    width: 35vw;
+    width: 50vw;
     background-color: var(--light-text-color);
     height: 100vh;
     padding: 20px;
@@ -79,7 +79,7 @@ a:hover {
 
 .smallMap {
     height: 100vh;
-    width: 65vw;
+    width: 50vw;
     z-index: 0;
     transition: width 0.3s ease;
 }
@@ -116,9 +116,10 @@ a:hover {
     border-top: none;
     border-radius: 0 0 8px 8px;
     margin-top: -5px;
-    overflow: hidden;
+    overflow-y: auto;
     box-shadow: 0 2px 5px var(--shadow-color);
     width: 300px;
+    max-height: 300px;
 }
 
 .suggestionListItems {

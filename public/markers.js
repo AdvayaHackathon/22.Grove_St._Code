@@ -1,8 +1,9 @@
 
 let itinerary = [];
-let markers = [];
-//  Create custom icons for different map features
- 
+
+/**
+ * Create custom icons for different map features
+ */
 function createMapIcons() {
     const icons = {
         temple: L.icon({
@@ -71,9 +72,9 @@ function createMapIcons() {
     return icons;
 }
 
-
- // Get the appropriate icon for a point based on its category
- 
+/**
+ * Get the appropriate icon for a point based on its category
+ */
 function getIconForCategory(category, icons) {
     const categoryToIcon = {
         "templesLayer": icons.temple, 
@@ -90,9 +91,9 @@ function getIconForCategory(category, icons) {
     return categoryToIcon[category] || undefined;
 }
 
-
- // Add a marker to the appropriate layer based on its category
- 
+/**
+ * Add a marker to the appropriate layer based on its category
+ */
 function addMarkerToLayer(marker, category, layers) {
     const categoryToLayer = {
         "templesLayer": layers.temples,
@@ -110,9 +111,9 @@ function addMarkerToLayer(marker, category, layers) {
     }
 }
 
-
- // Create popup HTML content for a point of interest (now used for details pane)
- 
+/**
+ * Create popup HTML content for a point of interest (now used for details pane)
+ */
 function createDetailsHTML(point, index) {
   const sliderId = `slider-${index}`;
   const infoId = `info-${index}`;
@@ -135,7 +136,7 @@ function createDetailsHTML(point, index) {
               data-info="${encodeURIComponent(JSON.stringify(point.info))}"
           />
           <datalist id="${datalistId}">${options}</datalist>
-          <p id="${infoId}">${point.info[0]}</p>
+          <p style="font-size: 23px;" id="${infoId}">${point.info[0]}</p>
       `;
   } else if (typeof point.info === "string") {
       staticInfoHTML = `<p>${point.info}</p>`;
@@ -143,7 +144,6 @@ function createDetailsHTML(point, index) {
 
   
   return `
-      <h3>${point.name}</h3>
       <img src="${point.img}" style="width: 100%; max-height: 200px; object-fit: contain;" />
       ${sliderHTML || staticInfoHTML}
       <div style="display: flex; justify-content: space-between; margin-top: 10px;">
@@ -153,9 +153,9 @@ function createDetailsHTML(point, index) {
   `;
 }
 
-
- // Set up event listeners for interactive elements in the details pane
- 
+/**
+ * Set up event listeners for interactive elements in the details pane
+ */
 function setupDetailsPaneListeners() {
     const detailsPane = document.getElementById("detailsPane");
     if (!detailsPane) return;
@@ -219,9 +219,9 @@ function setupDetailsPaneListeners() {
     }
 }
 
-
- // Load points of interest from JSON file and add them to the map
- 
+/**
+ * Load points of interest from JSON file and add them to the map
+ */
 function loadPointsOfInterest(map, featureLayers) {
     const icons = createMapIcons();
 
@@ -238,7 +238,9 @@ function loadPointsOfInterest(map, featureLayers) {
 
                 
                 marker.addEventListener("click", () => {
-                    openSidePane(point.name, detailsHTML); 
+                    openSidePane(point.name, detailsHTML);
+                    //executeSearch(point.name);
+                    map.setView([point.lat, point.lon+0.5],10 ); 
                 });
 
                 
@@ -253,9 +255,9 @@ function loadPointsOfInterest(map, featureLayers) {
         .catch(err => console.error("Failed to fetch or render tourist data:", err));
 }
 
-
- // Update the itinerary list in the UI
- 
+/**
+ * Update the itinerary list in the UI
+ */
 function updateItineraryDisplay() {
     const itineraryContainer = document.getElementById('itinerary-list');
     if (!itineraryContainer) return;
@@ -289,9 +291,9 @@ function updateItineraryDisplay() {
     itineraryContainer.appendChild(list);
 }
 
-
- // Add this function call to the main initialization function
- 
+/**
+ * Add this function call to the main initialization function
+ */
 function enhanceMapWithPOIs(map, featureLayers) {
     loadPointsOfInterest(map, featureLayers);
     updateItineraryDisplay();
