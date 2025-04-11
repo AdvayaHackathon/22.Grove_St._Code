@@ -1,0 +1,121 @@
+[
+   
+    {
+        "name": "Hampi_Vijayanagara_Empire",
+        "lat": 15.335,
+        "lon": 76.6552,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vijaya_Vittala_Hampi.jpg",
+        "link": "https://www.karnataka.com/hampi/vittala-temple/",
+        "category":"templesLayer",
+        "info":[
+            "1336CE: Establishment of the Vijayanagara Empire with Hampi as its magnificent capital, leading to extensive temple construction.",
+            "1565CE: The Battle of Talikota resulted in the empire's defeat and the subsequent plundering and ruin of Hampi.",
+            "2025: Approval for a ₹50 crore science center and planetarium near Hampi, aiming to boost education and tourism in the region."
+        ],
+        "timeline":["1336CE","1565CE","2025"]
+        
+    },
+    {
+        "name": "Coorg",
+        "lat": 12.4260,
+        "lon": 75.7382,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Thadiyantamol_betta.jpg",
+        "category":"hill_stationLayer",
+        "info":[
+            "1600CE: The rule of the Haleri Rajas established an independent kingdom of Coorg, with Madikeri as its capital, shaping its unique cultural and political identity.",
+            "1834CE: The British East India Company annexed Coorg after a brief war, making it a province of British India and significantly altering its administrative structure.",
+            "2025: Kodagu reported a record 45.72 lakh tourist arrivals in 2024, a significant increase from 43.99 lakh in 2023, highlighting its growing popularity as a preferred travel destination, especially for nature and coffee-related tourism."
+        ],
+        "timeline":["1600CE","1834CE","2025"]
+    },
+    {
+        "name": "Bengaluru",
+        "lat": 12.9716,
+        "lon": 77.5946,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/f/f4/Vidhana_Soudha_LE.jpg",
+        "category":"placeLayer",
+        "info":[
+            "1537CE: Kempe Gowda I, a chieftain under the Vijayanagara Empire, is traditionally credited with founding Bengaluru, establishing a mud fort and laying the foundation for the city.",
+            "1809CE: The British East India Company shifted its military headquarters to Bengaluru, which spurred significant growth and development, transforming it into a major administrative and military center.",
+            "2025: Bengaluru was recognized as one of the top global tech hubs, attracting significant foreign direct investment and talent, and continuing its growth as a leading center for innovation and technology."
+        ],
+        "timeline":["1537CE","1809CE","2025"]
+    },
+    {
+        "name": "Gokarna",
+        "lat": 14.5490,
+        "lon": 74.3186,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/7/79/Gokarna%2C_February%2C_2018-7.jpg",
+        "category":"placeLayer",
+        "info":[
+            "Ancient Times: Gokarna has been a significant pilgrimage site for centuries, revered for the Mahabaleshwar Temple, which houses the Atmalinga, believed to have been brought by Ravana. Its religious importance predates specific recorded historical events.",
+            "16CE : Following the decline of the Vijayanagara Empire, the region, including Gokarna, came under the control of various local rulers and eventually the Maratha Confederacy before being annexed by the British in the late 18th century. Its religious significance as a Shaivaite center continued throughout these periods.",
+            "Early 2020s: Gokarna has seen a notable increase in tourism, attracting both religious pilgrims and leisure travelers drawn to its beaches and temples. This growth has led to discussions and initiatives focused on balancing tourism development with the preservation of its sacred environment and coastal ecology."
+        ],
+        "timeline":["BCE","16CE","2020s"]
+    },
+    {
+        "name": "Virupaksha Temple",
+        "lat": 15.335,
+        "lon": 76.462,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Virupaksha_Temple.png",
+        "link": "https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi",
+        "category": "templesLayer",
+        "info": [
+          "Pre-Vijayanagara Era: The Virupaksha-Pampa sanctuary existed before the 14th century, with inscriptions indicating its growing religious importance under the Chalukyas and Hoysalas.",
+          "14th - 16th Centuries: Under the Vijayanagara Empire, particularly during the reign of Krishna Deva Raya, the temple was significantly expanded with grand gopurams and pillared halls, reaching its current impressive form.",
+          "Present Day : The Virupaksha Temple remains an active and highly revered center of worship, hosting major annual festivals like the betrothal and wedding of Virupaksha and Pampa, drawing large numbers of devotees and tourists."
+        ],
+        "timeline": ["BCE", "14CE", "Present Day"]
+      },
+    {
+        "name": "Malpe Beach",
+        "lat": 13.362423782223784,
+        "lon": 74.69782218799779,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Malpe_beach_view.jpg",
+        "link": "https://en.wikipedia.org/wiki/Malpe",
+        "category": "beachLayer",
+        "info": [
+          "Ancient Seaport: Malpe has been an ancient seaport and harbor, with mentions dating back to the 2nd century CE by the Greek geographer Ptolemy, indicating its long-standing maritime importance.",
+          "Late 20th - Early 21st Century: Malpe Beach gradually developed as a popular tourist destination, known for its scenic beauty, fishing harbor, and the gateway to St. Mary's Island.",
+          "November 2024: The Udupi District Tourism Development Committee reclaimed management of Malpe Beach and St. Mary's Island, signaling a renewed focus on its administration and development for tourism."      
+        ],
+        "timeline": ["Ancient", "20 century","Nov"]
+    },   
+    {
+        "name" : "Mane",
+        "lat": 12.3055611,
+        "lon": 76.6544508,
+        "category":"crownLayer",
+        "info":[
+            "Chairman of Board of Directors,Payana Technologies Pvt Ltd"
+            
+        ],
+        "timeline":["2025"]
+    },
+    {
+        "name": "SJCIT",
+        "lat": "13.3957",
+        "lon":"77.7270",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SJC-Institute-of-Technology.jpg",
+        "link":"https://en.wikipedia.org/wiki/S_J_C_Institute_of_Technology",
+        "category":"collegeLayer",
+        "info":[
+            "Studing over here"
+        ],
+        "timeline":["2025"]
+    },
+    {
+        "name": "BGSCET",
+        "lat": "13.0046",
+        "lon":"77.5445",
+        
+        "link":"https://bgscet.ac.in/",
+        "category":"collegeLayer",
+        "info":[
+            "..."
+        ],
+        "timeline":["2025"]
+    }  
+]
+
