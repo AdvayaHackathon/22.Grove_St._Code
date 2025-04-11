@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payana</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="leaflet-routing-machine.css" />
+    <script src="leaflet-routing-machine.js"></script>
+
+
+     <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <div id="root">
+        <div id="mapAndSearch">
+            <div id="map" class="wideMap"></div>
+            <div id="search">
+                <input type="text" placeholder="Search Places...." id="searchInput">
+                <div id="suggestions"></div>
+            </div>
+        </div>
+        <div id="detailsPane"> <!--For future, if we decide to implement the left right approach.-->
+            
+        </div>
+    </div>
+
+     <script src="map_ini.js"></script>
+     <script src="markers.js"></script>
+     <script src="routing.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>
