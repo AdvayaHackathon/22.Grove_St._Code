@@ -3,9 +3,9 @@
 let poiData = [];
 let markers = [];
 
-/**
- * Load points of interest data from JSON file
- */
+
+ // Load points of interest data from JSON file
+ 
 function loadPointsOfInterestData() {
     return fetch('files/tourist_poi.json')
         .then(response => response.json())
@@ -19,9 +19,9 @@ function loadPointsOfInterestData() {
         });
 }
 
-/**
- * Generate and display search suggestions based on user input
- */
+
+//  Generate and display search suggestions based on user input
+ 
 function displaySearchSuggestions(searchInput) {
     const query = searchInput.value.trim().toLowerCase();
     const suggestionsContainer = document.getElementById("suggestions");
@@ -52,9 +52,9 @@ function displaySearchSuggestions(searchInput) {
     });
 }
 
-/**
- * Execute search query and focus map on the result
- */
+
+ // Execute search query and focus map on the result
+ 
 function executeSearch(query) {
     if (query.length === 0) return;
     console.log("Searching for:", query);
@@ -91,9 +91,9 @@ function executeSearch(query) {
 
 }
 
-/**
- * Initialize search functionality
- */
+
+ // Initialize search functionality
+ 
 function initializeSearch() {
     const searchInput = document.getElementById("searchInput");
 
@@ -120,9 +120,9 @@ function initializeSearch() {
     });
 }
 
-/**
- * Open side pane with details about a location
- */
+
+ // Open side pane with details about a location
+ 
 function openSidePane(name, contentHTML) {
     const mapElement = document.getElementById(MAP_CONTAINER_ID);
 
@@ -172,9 +172,9 @@ function openSidePane(name, contentHTML) {
     setupDetailsPaneListeners();
 }
 
-/**
- * Close the side pane and restore map to full width
- */
+
+ // Close the side pane and restore map to full width
+ 
 function closeSidePane() {
     const mapElement = document.getElementById(MAP_CONTAINER_ID);
     mapElement.className = "wideMap";
