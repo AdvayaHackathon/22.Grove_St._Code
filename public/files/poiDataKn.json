@@ -706,5 +706,31 @@
      ],
      "category":"hiddengemsLayer",
      "timeline":["1967","1990","2025"]
+  },
+  {
+      "name": "BGSCET",
+      "lat":13.0046,
+      "lon":77.5445,
+      "img":"https://assets.collegedunia.com/public/college_data/images/appImage/1695121213IMG20230914WA0022.jpg",
+      "link":"https://bgscet.ac.in/",
+      "info":[
+        "2022 ರಲ್ಲಿ ಸ್ಥಾಪನೆಯಾಯಿತು",
+          "ಪ್ರಸ್ತುತ ಇಲ್ಲಿದ್ದೇನೆ"
+      ],
+      "category":"collegeLayer",
+      "timeline":["2022","2025"]
+  },
+  {
+      "name": "SJCIT",
+      "lat":13.3957,
+      "lon":77.7270,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SJC-Institute-of-Technology.jpg",
+      "link":"https://en.wikipedia.org/wiki/S_J_C_Institute_of_Technology",
+      "info":[
+          "1986 ರಲ್ಲಿ ಪ್ರಾರಂಭವಾಯಿತು",
+          "ಪ್ರಸ್ತುತ ಇಲ್ಲಿ ಓದುತ್ತಿದ್ದೇನೆ"
+      ],
+      "category":"collegeLayer",
+      "timeline":["1986","2025"]
   }
 ]  
