@@ -5,6 +5,7 @@ const KARNATAKA_BOUNDARY_FILE = 'files/karnataka_boundary.geojson';
 const ICON_VISIBLE_ZOOM_LEVEL = 7;
 
 let map; // Declare map as a global variable
+let featureLayers; // Declare featureLayers as a global variable
 
 function initializeMap() {
     map = L.map(MAP_CONTAINER_ID).setView(KARNATAKA_CENTER, DEFAULT_ZOOM);
@@ -21,16 +22,16 @@ function addBaseMapLayer(map) {
 
 function createFeatureLayers(map) {
     const layers = {
-        temples: L.layerGroup().addTo(map),
-        beaches: L.layerGroup().addTo(map),
-        dams:L.layerGroup().addTo(map),
-        wild:L.layerGroup().addTo(map),
-        water:L.layerGroup().addTo(map),
-        history:L.layerGroup().addTo(map),
-        trek:L.layerGroup().addTo(map),
-        college:L.layerGroup().addTo(map),
-        hidden:L.layerGroup().addTo(map)
-        
+        temples: L.layerGroup(),
+        beaches: L.layerGroup(),
+        dams:L.layerGroup(),
+        wild:L.layerGroup(),
+        water:L.layerGroup(),
+        history:L.layerGroup(),
+        trek:L.layerGroup(),
+        college:L.layerGroup(),
+        hidden:L.layerGroup()
+
     };
 
     return layers;
@@ -45,9 +46,9 @@ function setupLayerControl(map, layers) {
         "wild": layers.wild,
         "waterFalls":layers.water,
         "history":layers.history,
-        "trek":layers.trek,
-        "college":layers.college,
-        "hiddengems":layers.hidden
+        "trek": layers.trek,
+        "college": layers.college,
+        "hiddengems": layers.hidden
     };
 
     L.control.layers(null, overlays).addTo(map);
@@ -55,22 +56,21 @@ function setupLayerControl(map, layers) {
 
 function updateIconVisibility() {
   const currentZoom = map.getZoom();
-  while(1){
-    if (featureLayers) {
-      for (const layerName in featureLayers) {
-          const layer = featureLayers[layerName];
-          if (currentZoom >= ICON_VISIBLE_ZOOM_LEVEL && !map.hasLayer(layer)) {
-              layer.addTo(map);
-          } else if (currentZoom < ICON_VISIBLE_ZOOM_LEVEL && map.hasLayer(layer)) {
-              map.removeLayer(layer);
-          }
-      }
-  }
+  if (featureLayers) {
+    for (const layerName in featureLayers) {
+        const layer = featureLayers[layerName];
+        const visible = currentZoom >= ICON_VISIBLE_ZOOM_LEVEL;
+        if (visible && !map.hasLayer(layer)) {
+            layer.addTo(map);
+        } else if (!visible && map.hasLayer(layer)) {
+            map.removeLayer(layer);
+        }
+    }
   }
 }
 
 function loadKarnatakaBoundary(map) {
-    fetch(KARNATAKA_BOUNDARY_FILE)
+    return fetch(KARNATAKA_BOUNDARY_FILE) // Return the promise
         .then(response => response.json())
         .then(data => {
             const karnatakaLayer = L.geoJSON(data, {
@@ -87,16 +87,20 @@ function loadKarnatakaBoundary(map) {
 
 function initializeMapApplication() {
     const map = initializeMap();
-
     addBaseMapLayer(map);
-
-    const featureLayers = createFeatureLayers(map);
-
+    featureLayers = createFeatureLayers(map);
     setupLayerControl(map, featureLayers);
 
-    loadKarnatakaBoundary(map);
+    // Load data and then enhance the map
+    loadPointsOfInterestData().then(() => {
+        enhanceMapWithPOIs(map, featureLayers);
+    });
 
-    enhanceMapWithPOIs(map, featureLayers);
+    loadKarnatakaBoundary(map); // No need to wait for this to enhance POIs
+
+    // Set up initial icon visibility and add listener for zoom changes
+    updateIconVisibility();
+    map.on('zoomend', updateIconVisibility);
 }
 
 initializeMapApplication();

@@ -1,4 +1,3 @@
-
 let itinerary = [];
 
 /**
@@ -229,43 +228,6 @@ function setupDetailsPaneListeners() {
 }
 
 /**
- * Load points of interest from JSON file and add them to the map
- */
-function loadPointsOfInterest(map, featureLayers) {
-    const icons = createMapIcons();
-
-    fetch('files/tourist_poi.json')
-        .then(res => res.json())
-        .then(data => {
-            data.forEach((point, index) => {
-                
-                const detailsHTML = createDetailsHTML(point, index);
-
-                
-                const icon = getIconForCategory(point.category, icons);
-                console.log(point.category);
-                const marker = L.marker([point.lat, point.lon], { icon });
-
-                
-                marker.addEventListener("click", () => {
-                    openSidePane(point.name, detailsHTML);
-                    //executeSearch(point.name);
-                    map.setView([point.lat, point.lon+0.5],10 ); 
-                });
-
-                
-                addMarkerToLayer(marker, point.category, featureLayers);
-
-                
-                markers.push(marker);
-            });
-
-            
-        })
-        .catch(err => console.error("Failed to fetch or render tourist data:", err));
-}
-
-/**
  * Update the itinerary list in the UI
  */
 function updateItineraryDisplay() {
@@ -305,6 +267,31 @@ function updateItineraryDisplay() {
  * Add this function call to the main initialization function
  */
 function enhanceMapWithPOIs(map, featureLayers) {
-    loadPointsOfInterest(map, featureLayers);
+    const icons = createMapIcons();
+    poiData.forEach((point, index) => {
+                
+        const detailsHTML = createDetailsHTML(point, index);
+
+        
+        const icon = getIconForCategory(point.category, icons);
+        console.log(point.category);
+        const marker = L.marker([point.lat, point.lon], { icon });
+
+        
+        marker.addEventListener("click", () => {
+            currentPlace = point.name;
+            
+            openSidePane(currentPlace, detailsHTML);
+            
+            //executeSearch(point.name);
+            map.setView([point.lat, point.lon+0.5],10 ); 
+        });
+
+        
+        addMarkerToLayer(marker, point.category, featureLayers);
+
+        
+        markers.push(marker);
+    });
     updateItineraryDisplay();
 }
