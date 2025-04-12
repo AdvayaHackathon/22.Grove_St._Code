@@ -28,7 +28,8 @@ function createFeatureLayers(map) {
         water:L.layerGroup().addTo(map),
         history:L.layerGroup().addTo(map),
         trek:L.layerGroup().addTo(map),
-        college:L.layerGroup().addTo(map)
+        college:L.layerGroup().addTo(map),
+        hidden:L.layerGroup().addTo(map)
         
     };
 
@@ -45,7 +46,8 @@ function setupLayerControl(map, layers) {
         "waterFalls":layers.water,
         "history":layers.history,
         "trek":layers.trek,
-        "college":layers.college
+        "college":layers.college,
+        "hiddengems":layers.hidden
     };
 
     L.control.layers(null, overlays).addTo(map);

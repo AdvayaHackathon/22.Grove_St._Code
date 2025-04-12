@@ -66,6 +66,13 @@ function createMapIcons() {
             iconAnchor:[17,35],
             popupAnchor:[0,-35],
             shadowUrl:null
+        }),
+        hidden: L.icon({
+            iconUrl:"icons/gem-stone.svg",
+            iconSize:[35,35],
+            iconAnchor:[17,35],
+            popupAnchor:[0,-35],
+            shadowUrl:null
         })
     };
 
@@ -84,7 +91,8 @@ function getIconForCategory(category, icons) {
         "waterFallsLayer":icons.water,
         "historyLayer":icons.history,
         "trekLayer":icons.trek,
-        "collegeLayer":icons.college
+        "collegeLayer":icons.college,
+        "hiddenLayer":icons.hidden
         
     };
 
@@ -103,7 +111,8 @@ function addMarkerToLayer(marker, category, layers) {
         "waterFallsLayer":layers.water,
         "historyLayer":layers.history,
         "trekLayer":layers.trek,
-        "collegeLayer":layers.college
+        "collegeLayer":layers.college,
+        "hiddenLayer":layers.hidden
     };
 
     if (categoryToLayer[category]) {
@@ -234,6 +243,7 @@ function loadPointsOfInterest(map, featureLayers) {
 
                 
                 const icon = getIconForCategory(point.category, icons);
+                console.log(point.category);
                 const marker = L.marker([point.lat, point.lon], { icon });
 
                 
